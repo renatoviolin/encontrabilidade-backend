@@ -8,7 +8,7 @@ do repo [`encontrabilidade`](https://github.com/renatoviolin/encontrabilidade)).
 
 ```bash
 npm install
-npm start   # :3111 — back ok (20 produtos)
+npm start   # :3001 — back ok (20 produtos)
 ```
 
 ## Endpoints

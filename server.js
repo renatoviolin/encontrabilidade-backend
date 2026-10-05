@@ -1,5 +1,5 @@
 // Back da loja modelo — Express, limpo e didático.
-// Roda local: npm install && npm start (PORT=3111)
+// Roda local: npm install && npm start (PORT=3001)
 // Fonte: ./data/products.json (cópia espelhada do front; o audit_store acusa divergência)
 //   GET  /health
 //   GET  /api/products?q=&category=&sort=menor|maior|avaliacao
@@ -13,7 +13,7 @@ const cors = require('cors');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const PORT = Number(process.env.PORT || 3111);
+const PORT = Number(process.env.PORT || 3001);
 const DATA_FILE = path.join(__dirname, 'data', 'products.json');
 
 const loadData = () => JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
